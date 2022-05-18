@@ -2,7 +2,7 @@
 sudo apt-get update
 # Install nginx
 sudo apt-get install -y nginx
-## Install unzip 
+# Install unzip 
 sudo apt-get install -y unzip
 # Download latest release to nginx
 cd /var/www/html
