@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Zip page.html
+      - name: Zip index.html
         run: zip release.zip page.html
       - name: Create Release
         id: create_release
