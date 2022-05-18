@@ -7,7 +7,7 @@ packer {
   }
 }
 source "amazon-ebs" "ubuntu" {
-  ami_name      = "learn-packer-ubuntu-aws"
+  ami_name      = "page-ubuntu-aws"
   instance_type = "t2.micro"
   source_ami_filter {
     filters = {
