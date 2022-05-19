@@ -65,9 +65,8 @@ The installation log will be printed to the screen.In the end you should get the
 
 ## What does the script.sh do
 1. Update the package lists
-2. Install nginx
-3. Install unzip 
-4. Download latest release to nginx
-5. Unzip release.zip
-6. Allow nginx in firewall
-7. Clean-up 
+2. Install nginx & unzip
+3. Download latest release оf the code to the instance
+4. Unzip release.zip
+5. Allow nginx in firewall
+6. Clean-up 
