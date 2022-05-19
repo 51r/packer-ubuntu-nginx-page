@@ -1,4 +1,4 @@
-# Packer template for AWS Instance with preconfigured nginx that contains index.html.
+# Packer template for AMI with nginx.
 
 This repo contains packer template that creates instance for AWS that contains the following:
 * Latest version of Nginx
@@ -18,7 +18,7 @@ This guide applies to Mac, for other OS it may vary.
 
 * Clone this repo locally to a folder of your choice
 ```
-git clone [https://github.com/51r/packer_ubuntu_aws.git](https://github.com/51r/packer-ubuntu-nginx-page.git)
+git clone https://github.com/51r/packer_ubuntu_aws.git
 ```
 * Make sure you are in the main directory of the repo:
 
